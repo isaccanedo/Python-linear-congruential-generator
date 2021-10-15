@@ -1,0 +1,2 @@
+# Python-linear-congruential-generator
+:hamster: O valor padrão para ** seed ** é o resultado de uma chamada de função que normalmente não é recomendada e faz com que flake8-bugbear gere um erro B008. No entanto, neste caso, é aceitável porque `LinearCongruentialGenerator .__ init __ ()` será chamado apenas uma vez por instância e garante que cada instância irá gerar uma sequência única de números.
